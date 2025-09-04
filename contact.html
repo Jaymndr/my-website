@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact & Quotes | AlphaPep LLC</title>
+  <meta name="description" content="Contact AlphaPep LLC for quotes and support. Send your quote cart via email (no server needed).">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link href="/assets/css/styles.css" rel="stylesheet">
+  <meta name="theme-color" content="#154573">
+  <script defer src="/assets/js/main.js"></script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AlphaPep LLC",
+  "url": "https://example.com",
+  "logo": "/assets/img/logo.svg",
+  "sameAs": [],
+  "description": "Supplier of laboratory consumables and equipment. No peptides or chemicals."
+}
+  </script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="/"><img src="/assets/img/logo.svg" alt="AlphaPep LLC logo" width="120" height="28"></a>
+    <nav class="links" aria-label="Primary">
+      <a href="/products.html">Products</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <a class="cta" href="/contact.html">
+      <img src="/assets/img/icons/shield.svg" alt="" width="20" height="20"> Request a Quote
+      <span class="badge" style="margin-left:8px;">Cart <span data-cart-count>0</span></span>
+    </a>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1>Contact & Quote Request</h1>
+    <p class="small">Send us your details and we’ll respond with pricing and lead times. This site uses a simple email workflow—no server needed.</p>
+
+    <div class="grid-3">
+      <div class="card" style="grid-column: span 2;">
+        <h3>Your Quote Cart</h3>
+        <div id="quote-list" class="small"></div>
+        <div style="display:flex; gap:10px; margin-top:12px;">
+          <a id="quote-mailto" class="btn primary" href="#">Send via Email</a>
+          <button class="btn ghost" onclick="clearCart()">Clear Cart</button>
+        </div>
+        <p class="small" style="margin-top:10px;">Tip: If the email app doesn’t open, right‑click the “Send via Email” button, copy the address, and paste it into your email client.</p>
+      </div>
+      <div class="card">
+        <h3>Direct contact</h3>
+        <p class="small"><img src="/assets/img/icons/phone.svg" alt="" width="16" height="16"> (555) 555‑5555</p>
+        <p class="small"><img src="/assets/img/icons/mail.svg" alt="" width="16" height="16"> sales@example.com</p>
+        <p class="small">Mon–Fri, 9am–5pm ET</p>
+        <p class="notice">We supply lab supplies only—no peptides or regulated chemicals.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <img src="/assets/img/logo.svg" width="150" height="32" alt="AlphaPep LLC">
+      <p class="small" style="margin-top:10px;">Trusted supplier of lab consumables & equipment for research and industry.</p>
+      <p class="notice">We supply <strong>lab supplies only</strong>. <strong>No peptides</strong>, drugs, or regulated chemicals.</p>
+    </div>
+    <div>
+      <h4>Products</h4>
+      <ul class="small">
+        <li><a href="/products.html#consumables">Consumables</a></li>
+        <li><a href="/products.html#equipment">Equipment</a></li>
+        <li><a href="/products.html#safety">Safety</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul class="small">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/privacy.html">Privacy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="small">
+        <li><img src="/assets/img/icons/phone.svg" alt="" width="16" height="16"> (555) 555‑5555</li>
+        <li><img src="/assets/img/icons/mail.svg" alt="" width="16" height="16"> sales@example.com</li>
+        <li>Mon–Fri, 9am–5pm ET</li>
+      </ul>
+      <a class="btn ghost" href="/contact.html">Get in touch</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    © <span id="year"></span> AlphaPep LLC. All rights reserved.
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

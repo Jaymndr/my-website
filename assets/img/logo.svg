@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-label="AlphaPep LLC logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#154573"/>
+      <stop offset="100%" stop-color="#1b7aa5"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(6,4)">
+    <rect x="0" y="0" width="40" height="40" rx="10" fill="url(#g)"/>
+    <!-- stylized beaker -->
+    <g transform="translate(8,6)">
+      <path d="M4 0 h16 v4 l-3 4 v10 a9 9 0 1 1 -10 0 V8 L4 4 z" fill="white" opacity="0.9"/>
+      <circle cx="12" cy="22" r="6" fill="#f2f7fb"/>
+      <circle cx="12" cy="22" r="3" fill="#154573"/>
+    </g>
+  </g>
+  <text x="58" y="30" font-family="Segoe UI, system-ui, -apple-system, Roboto, Arial, sans-serif" font-size="22" font-weight="800" fill="#0b1f2a">AlphaPep</text>
+  <text x="150" y="30" font-family="Segoe UI, system-ui, -apple-system, Roboto, Arial, sans-serif" font-size="18" font-weight="500" fill="#1b7aa5">Lab Supply</text>
+</svg>
